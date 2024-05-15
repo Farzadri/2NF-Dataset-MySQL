@@ -3,7 +3,7 @@ Transforming Used Cars Details Dataset into 2NF
 
 **Description**:
 
-This aims to normalize Used Cars Details Dataset to the second normal form (2NF) at MySQL in order to organize data for storing in data warehouse.  
+This aims to normalize Used Cars Details Dataset to the second normal form (2NF) at MySQL in order to organize the data for storing in a data warehouse.  
 
 **The steps to convert dataset to 2NF are as follows:**
 
@@ -13,7 +13,7 @@ This aims to normalize Used Cars Details Dataset to the second normal form (2NF)
   Table 2: Car_specifications: This table includes detailed specifications of each car.
   Table 3: Car_price: This table includes pricing information for each car.
 
-3-Identified the primary key and forign key for each table, maintaining relationship between tables as follows:
+3-Identified the primary key and foreign key for each table, maintaining relationship between tables as follows:
 
 -Table 1:
 Primary Key: (Car_Name, Make, Model, Make_Year) is a composite key as a unique identifier. 
